@@ -1,0 +1,18 @@
+2
+tests/test15-placingLastTileOfPlayerHand/test15.save
+place R1 at G5
+place R2 at G6
+place R3 at G7
+place R4 at G8
+place R5 at G9
+place R6 at G10
+place B1 at G5
+place B2 at F6
+place B3 at H7
+place B4 at F8
+place B5 at H9
+place B6 at F10
+place C6 at E10
+place B2 at F6
+quit
+4

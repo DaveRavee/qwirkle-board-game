@@ -1,0 +1,1 @@
+Tests were loaded in with save files that would provide the necessary tiles in hand and in the tile bag. They serve to conducts tests on a particular functionality. Therefore it is not recommended to load from these test saves to play game as it might cause inconsistencies. 

@@ -1,0 +1,33 @@
+Welcome to Qwirkle!
+-------------------
+Menu
+----
+1. New Game
+2. Load Game
+3. Credits
+4. Quit
+5. Toggle Colours On
+6. Help
+
+> 
+Please enter a number for 1 to 6
+Input '1' to start a new game
+Input '2' to load a game
+Input '3' to show the students that worked on the game
+Input '4' to quit the game
+Input '5' to toggle tile colours on/off
+Input '6' to see this message again
+
+Menu
+----
+1. New Game
+2. Load Game
+3. Credits
+4. Quit
+5. Toggle Colours On
+6. Help
+
+> 
+
+Goodbye
+

@@ -1,0 +1,77 @@
+Tools ready:
+-Hand
+-Tile bag
+-Player
+-Board
+
+
+---------------------------------------
+<player 1 name>
+<player 1 score>
+<player 1 hand>
+<player 2 name>
+<player 2 score>
+<player 2 hand>
+<Current board shape>
+<Board State>
+<tile bag contents>
+<current player name>
+
+
+• Name: ASCII text
+• Score: Integer
+• Player hand and tile bag: comma separated ordered list   P2,P3,O6,Y4,B2,O3
+• Current board shape: Height, width
+• Board State: All tiles currently placed on the board should appear as a list of tile@position.
+
+--------------------------------
+
+
+
+TAKING TURN LOGIC (BRAINSTORM): 
+
+- While there are tiles in the bag, play the game, 
+  if not, stop game, display ending. 
+
+player turns are either true or false 
+
+play the game():
+give hand to player 1
+give hand to player 2
+Player 1 take turn, get player 1 input
+-   if input is valid AND begin with "place": 
+        get index of tileString in the hand  DONE
+        Place tile in the board -> 
+        1. Check that the command is correctly formatted.
+        2. Check that the placement of tile is legal according to the rules of Qwirkle.
+        Remove from player hand
+    if input is invalid: Ask player to try again. 
+
+after turn, calculate score, change turn, display board.
+
+change to player 2 
+repeat 
+
+
+
+
+
+
+***********************
+Tile Placement Logic
+
+- CAN ONLY PLACE ONE LINE
+- Can only be placed adjacent to the SAME colour or the SAME shape
+- Cannot place if there are other adjacent shapes that are not of the same colour or shape
+- THERE MUST BE NO DUPLICATE TILE on the same LINE
+- Need method to check up, down, left, right of board 
+  - Cases where tile is placed on the edge of board for out of bounds exception
+
+Points
+- Count each tile placed on the LINE
+- If any of those tiles counted has an extending line COUNT THAT LINE TOO
+- If a single line has 6 tiles add 6 bonus points and print "Qwirkle"
+- First player to clear their hand gets 6 bonus points
+- Game ends, player with the highest number of points wins
+
+---------------------
