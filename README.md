@@ -1,4 +1,7 @@
 # Programming Assignment 2 
+
+This is a program based on the board game Qwirkle written in C++ 
+
 ### Group Members:
 
 - Abd-Alrahman Ibrahim El Sayed (s3542549)
